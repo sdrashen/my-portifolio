@@ -21,34 +21,24 @@ const Skills = () => {
             <img className='w-20 mx-auto' src={ReactIcon} alt="React Ícone" />
             <p className='my-4'>React JS & Native</p>
           </div>
-        </div>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img src={StyledComponents} alt="Styled Component Ícone" className='w-20 mx-auto'/>
             <p className='my-4'>Styled Components</p>
           </div>
-        </div>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img src={Tailwind} alt="Tailwind Ícone" className='w-20 mx-auto'/>
             <p className='my-4'>Tailwind</p>
           </div>
-        </div>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img src={Typescript} alt="Typescript Ícone" className='w-20 mx-auto'/>
             <p className='my-4'>Typescript</p>
           </div>
-        </div>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
           <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
             <img src={Expo} alt="Expo Ícone" className='w-20 mx-auto'/>
             <p className='my-4'>Expo</p>
           </div>
-        </div>
-        <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
-          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-            <img src={NextJS} alt="Next Js Ícone" className='w-40 h-20 mx-auto'/>
+          <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 pt-2'>
+            <img src={NextJS} alt="Next Js Ícone" className='w-20 h-20 mx-auto'/>
             <p className='my-4'>Next Js</p>
           </div>
         </div>
