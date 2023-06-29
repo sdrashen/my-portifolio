@@ -12,8 +12,9 @@ const Navbar = () => {
 
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0e192f] text-gray-300'>
-      <div>
+      <div className='flex items-center justify-center'>
         <img src={SunIcon} alt="Ícone sol" style={{width: '50px'}} />
+        <p className='text-xs ml-2'>English version coming soon!</p>
       </div>
 
       {/*Menu*/}
