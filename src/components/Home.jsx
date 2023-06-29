@@ -1,5 +1,6 @@
 import React from 'react'
-import { HiArrowNarrowRight } from 'react-icons/hi'
+// import { HiArrowNarrowRight } from 'react-icons/hi'
+import MyPicture from '../assets/sabrina.jpeg'
 
 const Home = () => {
   return (
@@ -17,6 +18,9 @@ const Home = () => {
             </span>
           </button>
         </div> */}
+        <div className='w-[250px] h-[250px]'>
+          <img className='shadow-lg shadow-[#050505] hover:scale-110 duration-500' src={MyPicture} alt='Foto de Sabrina'/>
+        </div>
       </div>
     </div>
   )
