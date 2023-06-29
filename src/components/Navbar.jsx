@@ -29,8 +29,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to='habilidades' smooth={true} duration={500}>
-              Habilidades
+            <Link to='experiência' smooth={true} duration={500}>
+              Experiência
             </Link>
           </li>
           <li>
@@ -54,7 +54,7 @@ const Navbar = () => {
       <ul className={!nav ? 'hidden': 'absolute top-0 left-0 h-screen w-full bg-[#0e192f] flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl'>Home</li>
         <li className='py-6 text-4xl'>Sobre</li>
-        <li className='py-6 text-4xl'>Habilidades</li>
+        <li className='py-6 text-4xl'>Experiência</li>
         <li className='py-6 text-4xl'>Projetos</li>
         <li className='py-6 text-4xl'>Links</li>
       </ul>
