@@ -13,6 +13,7 @@ const Work = () => {
           <p className='mt-6'>Esta seção está em fase de desenvolvimento. Logo, você poderá conferir meu portfólio completo.</p>
         </div>
         {/* Container */}
+        <p>Passe o mouse na imagem abaixo.</p>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
           <div style={{backgroundImage: `url(${WorkImg})`}}
