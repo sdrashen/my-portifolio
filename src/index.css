@@ -28,3 +28,14 @@
     hsla(220, 74%, 61%, 0.8)
   )!important;
 }
+
+.button {
+  width: 70px;
+  height: 50px;
+  position: fixed;
+  right: 1.5rem;
+  bottom: 20px;
+  border-radius: 4px;
+  background: #8892b0;
+  cursor: pointer;
+}
