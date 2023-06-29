@@ -9,7 +9,7 @@ import NextJS from '../assets/nextjs-icon.png'
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full bg-[#0a192f] text-gray-300'>
+    <div name='habilidades' className='w-full h-full bg-[#0a192f] text-gray-300'>
       {/*Container*/}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div>

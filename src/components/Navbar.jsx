@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { AiOutlineMenu, AiOutlineClose, AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-import { HiOutlineMail } from 'react-icons/hi'
+import { AiOutlineMenu, AiOutlineClose, AiFillLinkedin } from 'react-icons/ai'
+// import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import SunIcon from '../assets/SunIcon.png'
 import { Link } from 'react-scroll'
@@ -24,18 +24,18 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to='about' smooth={true} duration={500}>
-              About
+            <Link to='sobre' smooth={true} duration={500}>
+              Sobre
             </Link>
           </li>
           <li>
-            <Link to='skills' smooth={true} duration={500}>
-              Skills
+            <Link to='habilidades' smooth={true} duration={500}>
+              Habilidades
             </Link>
           </li>
           <li>
-            <Link to='work' smooth={true} duration={500}>
-              Work
+            <Link to='projetos' smooth={true} duration={500}>
+              Projetos
             </Link>
           </li>
           <li>
@@ -53,10 +53,10 @@ const Navbar = () => {
       {/*Mobile menu */}
       <ul className={!nav ? 'hidden': 'absolute top-0 left-0 h-screen w-full bg-[#0e192f] flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl'>Home</li>
-        <li className='py-6 text-4xl'>About</li>
-        <li className='py-6 text-4xl'>Skills</li>
-        <li className='py-6 text-4xl'>Work</li>
-        <li className='py-6 text-4xl'>Contact</li>
+        <li className='py-6 text-4xl'>Sobre</li>
+        <li className='py-6 text-4xl'>Habilidades</li>
+        <li className='py-6 text-4xl'>Projetos</li>
+        <li className='py-6 text-4xl'>Links</li>
       </ul>
       
       {/*Social icons*/}
@@ -68,7 +68,7 @@ const Navbar = () => {
               Linkedin <AiFillLinkedin size={40}/>
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
             href='/'>
               Github <AiFillGithub size={40}/>
@@ -79,7 +79,7 @@ const Navbar = () => {
             href='/'>
               Email <HiOutlineMail size={40}/>
             </a>
-          </li>
+          </li> */}
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
             href='/'>
