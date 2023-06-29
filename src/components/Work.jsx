@@ -1,5 +1,6 @@
 import React from 'react'
 import WorkImg from '../assets/laptop-pen.jpeg'
+import { AiFillGithub } from 'react-icons/ai'
 
 const Work = () => {
   return (
@@ -9,7 +10,7 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
             Projetos
           </p>
-          <p className='py-6'>"Em breve será atualizado"</p>
+          <p className='mt-6'>Esta seção está em fase de desenvolvimento. Logo, você poderá conferir meu portfólio completo.</p>
         </div>
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
@@ -19,14 +20,13 @@ const Work = () => {
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Nome do projeto aqui
+                Visite meu Github
               </span>
               <div className='pt-8 text-center'>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>
-                </a>
-                <a href="/">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'></button>
+                <a href="https://github.com/sdrashen" target='_blank'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    <AiFillGithub size={60}/>
+                  </button>
                 </a>
               </div>
             </div>
