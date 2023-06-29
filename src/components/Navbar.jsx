@@ -38,11 +38,6 @@ const Navbar = () => {
               Projetos
             </Link>
           </li>
-          <li>
-            <Link to='links' smooth={true} duration={500}>
-              Links
-            </Link>
-          </li>
         </ul>
 
       {/*Hamburguer*/}
@@ -56,7 +51,6 @@ const Navbar = () => {
         <li className='py-6 text-4xl'>Sobre</li>
         <li className='py-6 text-4xl'>Experiência</li>
         <li className='py-6 text-4xl'>Projetos</li>
-        <li className='py-6 text-4xl'>Links</li>
       </ul>
       
       {/*Social icons*/}
@@ -64,7 +58,7 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700'>
             <a className='flex justify-between items-center w-full text-gray-300' 
-            href='/'>
+            href='https://www.linkedin.com/in/sabrinadrashen/' target='-blank'>
               Linkedin <AiFillLinkedin size={40}/>
             </a>
           </li>
