@@ -1,8 +1,24 @@
 {
   "translation": {
-    "selectYourLanguage": "pt-BR -> Select your language",
-    "about": "About",
-    "aboutMe": "A bit about me...",
-    "aboutMeText": "Sou natural do estado do Pará e há mais de 3 anos moro em Florianópolis. Minha primeira formação acadêmica é como Bacharel em Turismo. Atuei como intérprete, guia, monitora, conheci várias pessoas e lugares. Mas... Faltava aquele, sabe? As I have always been interested in technology, I decided to invest in this area as soon as I had the opportunity."
+    "selecionaIdioma": "Outros idiomas: ",
+    "inicio": "Início",
+    "sobreNavBar": "Sobre",
+    "experienciaNavBar": "Experiência",
+    "projetosNavBar": "Projetos",
+    "linkedin": "LinkedIn",
+    "curriculo": "Currículo",
+    "saudacao": "Olá, ilustre visitante. Meu nome é",
+    "nome": "Sabrina Drashen.",
+    "profissao": "Sou desenvolvedora Front End",
+    "sobre": "Sobre",
+    "sobreMim": "Um pouco sobre mim...",
+    "sobreMimTexto": "Sou natural do estado do Pará e há mais de 3 anos moro em Florianópolis. Minha primeira formação acadêmica é como Bacharel em Turismo. Atuei como intérprete, guia, monitora, conheci várias pessoas e lugares. Mas... Faltava aquele &quot;click&quot;, sabe? Como sempre tive interesse na tecnologia, decidi investir nessa área assim que tive a oportunidade. Decisão acertada! Gosto de criar, inovar, enfrentar desafios, sei trabalhar em equipe e acredito que neste novo campo profissional posso ir bem longe. Atualmente, busco oportunidades de trabalho, aprendizado e crescimento no mercado tecnológico.",
+    "experiencia": "Experiência",
+    "expTexto": "Tecnologias com as quais já trabalhei",
+    "projetos": "Projetos",
+    "avisoProjetos": "Esta seção está em fase de desenvolvimento. Logo, você poderá conferir meu portfólio completo.",
+    "avisoMouse": "Passe o mouse na imagem abaixo.",
+    "visitaGithub": "Visite meu Github"
+
   }
 }
