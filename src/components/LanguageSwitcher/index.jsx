@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import br from './assets/br.svg'
 import us from './assets/us.svg'
 import es from './assets/es.svg'
+import './styles.css'
 
 const languageOptions = [
   {
@@ -28,7 +29,7 @@ export const LanguageSwitcher = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className='Language-switcher'>
+    <div className='language-switcher'>
       <span>{t('selectYourLanguage')}</span>
 
       {languageOptions.map(languageOption => (
