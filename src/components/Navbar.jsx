@@ -4,6 +4,7 @@ import { AiOutlineMenu, AiOutlineClose, AiFillLinkedin } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import SunIcon from '../assets/SunIcon.png'
 import { Link } from 'react-scroll'
+import { LanguageSwitcher } from './LanguageSwitcher/index'
 
 const Navbar = () => {
 
@@ -83,6 +84,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      <LanguageSwitcher />
     </div>
   )
 }
