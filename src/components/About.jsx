@@ -21,9 +21,7 @@ const About = () => {
               <p>{t("aboutMe")}</p>
             </div>
             <div>
-              <p className='leading-7 tracking-wider'>Sou natural do estado do Pará e há mais de 3 anos moro em Florianópolis. Minha primeira formação acadêmica é como Bacharel em Turismo. Atuei como intérprete, guia, monitora, conheci várias pessoas e lugares. Mas... Faltava aquele "click", sabe? Como sempre tive interesse na tecnologia, decidi investir
-              nessa área assim que tive a oportunidade. Decisão acertada! Gosto de criar, inovar, enfrentar desafios, sei trabalhar em equipe e acredito que neste novo campo profissional posso ir bem longe. Atualmente,
-              busco oportunidades de trabalho, aprendizado e crescimento no mercado tecnológico.</p>  
+              <p className='leading-7 tracking-wider'>{t("aboutMeText")}</p>  
             </div>
           </div>
       </div>

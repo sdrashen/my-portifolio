@@ -1,8 +1,24 @@
 {
   "translation": {
-    "selectYourLanguage": "Select your language",
-    "about": "About",
+    "SelectLanguage": "Other languages: ",
+    "home": "home",
+    "aboutNavBar": "About",
+    "experienceNavBar": "Experience",
+    "projectsNavBar": "Projects",
+    "linkedin": "LinkedIn",
+    "resume": "Resume",
+    "greeting": "Hello, noble visitor. My name is",
+    "name": "Sabrina Drashen.",
+    "profession": "I'm a Front End developer",
+    "About": "About",
     "aboutMe": "A bit about me...",
-    "aboutMeText": "Sou natural do estado do Pará e há mais de 3 anos moro em Florianópolis. Minha primeira formação acadêmica é como Bacharel em Turismo. Atuei como intérprete, guia, monitora, conheci várias pessoas e lugares. Mas... Faltava aquele, sabe? As I have always been interested in technology, I decided to invest in this area as soon as I had the opportunity."
+    "aboutMeText": "I am from Pará State and I have lived in Florianópolis for over 3 years now. I first graduated as a Bachelor of Tourism. I worked as an interpreter, guide, monitor, and I met several people and places. But... that &quot;click&quot; was missing, you know? As I have always been into technology, I decided to jump in this area as soon as I had the opportunity. Right decision! I like to creating, innovating, facing challenges, Ihave great hability to work in group and I believe that in this new professional field I can go far away. I am currently looking for job opportunities and to learn more and grow in the technology.",
+    "experience": "Experience",
+    "expText": "Technologies I've worked with",
+    "projects": "Projects",
+    "warnProjects": "This section is under development. Soon, you will be able to check out my complete portfolio.",
+    "warnMouse": "Mouse over the image below.",
+    "visitGithub": "Visit my Github"
+
   }
 }
