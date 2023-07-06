@@ -1,24 +1,20 @@
 {
   "translation": {
-    "selectLanguage": "Outros idiomas: ",
     "home": "Comezo",
-    "aboutNavBar": "Sobre",
-    "experiencieNavBar": "Experiencia",
+    "about": "Sobre",
+    "experience": "Experiencia",
     "projectsNavBar": "Proyectos",
     "linkedin": "LinkedIn",
     "resume": "Currículum",
     "greeting": "Hola, distinguido visitante! Mi nombre es",
     "name": "Sabrina Drashen.",
     "profession": "Soy desarolladora Front End",
-    "about": "Sobre",
     "aboutMe": "Un poco sobre mí...",
     "aboutMeText": "Soy del estado de Pará y vivo en Florianópolis desde hace más de 3 años. Mi primera formación académica es como Licenciada en Turismo. Trabajé como intérprete, guía, monitora, y conocí a varias personas y lugares. Pero... ese &quot;click&quot;, ¿sabes? Como siempre me ha interesado la tecnología, decidí invertir en esta área en cuanto tuve la oportunidad. ¡Decisión acertada! Me gusta crear, innovar, enfrentar retos, se trabajar en equipo y creo que en este nuevo campo profesional puedo llegar lejos, actualmente estoy buscando oportunidades de trabajo, aprendizaje y crecimiento en el mercado tecnológico.",
-    "experiencie": "Experiencia",
     "expText": "Tecnologias con las que he trabajado",
     "projects": "Proyectos",
     "warnProjects": "Esta sección está en desarrollo. Pronto podrás ver mi portafolio completo",
     "warnMouse": "Pasa el mouse sobre la imagen de abajo.",
     "visitGithub": "Visita mi Github"
-
   }
 }

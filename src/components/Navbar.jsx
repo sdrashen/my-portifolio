@@ -81,7 +81,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a className='flex justify-between items-center w-full text-gray-300' 
             href='https://www.canva.com/design/DAEKHPisvYQ/sJAlSVLk5EHW7d4LeUuVrQ/view?mode=prototype' target='_blank'>
-              Currículo <BsFillPersonLinesFill size={40}/>
+              {t("resume")} <BsFillPersonLinesFill size={40}/>
             </a>
           </li>
         </ul>
