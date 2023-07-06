@@ -30,8 +30,6 @@ export const LanguageSwitcher = () => {
 
   return (
     <div className='language-switcher'>
-      <span>{t('selectYourLanguage')}</span>
-
       {languageOptions.map(languageOption => (
         <button
           key={languageOption.value}
