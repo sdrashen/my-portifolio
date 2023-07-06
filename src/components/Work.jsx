@@ -1,19 +1,23 @@
 import React from 'react'
 import WorkImg from '../assets/laptop-pen.jpeg'
 import { AiFillGithub } from 'react-icons/ai'
+import { useTranslation } from 'react-i18next'
 
 const Work = () => {
+
+  const { t } = useTranslation();
+
   return (
     <div name='projetos' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
-            Projetos
+            {t("projects")}
           </p>
-          <p className='mt-6'>Esta seção está em fase de desenvolvimento. Logo, você poderá conferir meu portfólio completo.</p>
+          <p className='mt-6'>{t("warnProjects")}</p>
         </div>
         {/* Container */}
-        <p>Passe o mouse na imagem abaixo.</p>
+        <p>{t("warnMouse")}</p>
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
           {/* Grid Item */}
           <div style={{backgroundImage: `url(${WorkImg})`}}
@@ -21,7 +25,7 @@ const Work = () => {
             {/* Hover effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Visite meu Github
+                {t("visitGithub")}
               </span>
               <div className='pt-8 text-center'>
                 <a href="https://github.com/sdrashen" target='_blank'>

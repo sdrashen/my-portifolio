@@ -5,8 +5,11 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import SunIcon from '../assets/SunIcon.png'
 import { Link } from 'react-scroll'
 import { LanguageSwitcher } from './LanguageSwitcher/index'
+import { useTranslation } from 'react-i18next'
 
 const Navbar = () => {
+
+  const { t } = useTranslation();
 
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
@@ -22,22 +25,22 @@ const Navbar = () => {
         <ul className='hidden md:flex'>
           <li>
             <Link to='home' smooth={true} duration={500}>
-              Home
+              {t("home")}
             </Link>
           </li>
           <li>
             <Link to='sobre' smooth={true} duration={500}>
-              Sobre
+              {t("about")}
             </Link>
           </li>
           <li>
             <Link to='experiência' smooth={true} duration={500}>
-              Experiência
+              {t("experience")}
             </Link>
           </li>
           <li>
             <Link to='projetos' smooth={true} duration={500}>
-              Projetos
+              {t("projects")}
             </Link>
           </li>
         </ul>
@@ -49,10 +52,10 @@ const Navbar = () => {
 
       {/*Mobile menu */}
       <ul className={!nav ? 'hidden': 'absolute top-0 left-0 h-screen w-full bg-[#0e192f] flex flex-col justify-center items-center'}>
-        <li className='py-6 text-4xl'>Home</li>
-        <li className='py-6 text-4xl'>Sobre</li>
-        <li className='py-6 text-4xl'>Experiência</li>
-        <li className='py-6 text-4xl'>Projetos</li>
+        <li className='py-6 text-4xl'>{t("home")}</li>
+        <li className='py-6 text-4xl'>{t("sobre")}</li>
+        <li className='py-6 text-4xl'>{t("experience")}</li>
+        <li className='py-6 text-4xl'>{t("projects")}</li>
       </ul>
       
       {/*Social icons*/}
