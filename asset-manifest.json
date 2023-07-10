@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/my-portifolio/static/css/main.d8bacd4a.css",
+    "main.js": "/my-portifolio/static/js/main.5d23f4b3.js",
+    "static/media/sabrina.jpeg": "/my-portifolio/static/media/sabrina.b6195592430834538313.jpeg",
+    "static/media/laptop-pen.jpeg": "/my-portifolio/static/media/laptop-pen.1748ff179f1b9559e565.jpeg",
+    "static/media/react-icon.png": "/my-portifolio/static/media/react-icon.e71f4c5b0c4306d65355.png",
+    "static/media/styled-components-icon.png": "/my-portifolio/static/media/styled-components-icon.186b514d3f4ae897e934.png",
+    "static/media/expo-icon.png": "/my-portifolio/static/media/expo-icon.93a67549e4e1b0912601.png",
+    "static/media/us.svg": "/my-portifolio/static/media/us.37be8a5d1af9e0ed7e87c08f3ccfcd58.svg",
+    "index.html": "/my-portifolio/index.html",
+    "static/media/br.svg": "/my-portifolio/static/media/br.d1c680dc88fb47813a51ac3cd0dba5e6.svg",
+    "static/media/es.svg": "/my-portifolio/static/media/es.043482646e1bcd8665db2dadac986c33.svg",
+    "main.d8bacd4a.css.map": "/my-portifolio/static/css/main.d8bacd4a.css.map",
+    "main.5d23f4b3.js.map": "/my-portifolio/static/js/main.5d23f4b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8bacd4a.css",
+    "static/js/main.5d23f4b3.js"
+  ]
+}
