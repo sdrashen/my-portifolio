@@ -22,9 +22,7 @@ const Home = () => {
             </span>
           </button>
         </div> */}
-        <div className='w-[250px] h-[250px]'>
-          <img className='shadow-lg shadow-[#050505] hover:scale-110 duration-500' src={MyPicture} alt='Foto de Sabrina'/>
-        </div>
+          <img className='w-[250px] h-[330px] shadow-lg shadow-[#050505] hover:scale-110 duration-500' src={MyPicture} alt='Foto de Sabrina'/>
       </div>
     </div>
   )
