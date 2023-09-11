@@ -21,14 +21,6 @@
   height: 250px;
 }
 
-.content-div:hover {
-  background-image: linear-gradient(
-    to right,
-    rgba(200, 157, 255, 0.8),
-    hsla(220, 74%, 61%, 0.8)
-  )!important;
-}
-
 .button {
   width: 70px;
   height: 50px;
